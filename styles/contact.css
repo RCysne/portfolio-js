@@ -1,0 +1,37 @@
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+legend {
+  padding: 1rem;
+}
+
+fieldset {
+  height: 20rem;
+  font-family: 'Glory', sans-serif;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+fieldset a{
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+#btn-wa {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  font-size: 1.2rem;
+  font-family: 'Glory', sans-serif;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  color: white;
+}

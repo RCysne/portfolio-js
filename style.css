@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#btn-menu-closed {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+  text-align: center;
+}
+
+#menu a, #menu li {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  /* display: none; */
+}
+
+#title-dev, #profile-picture{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#text-dev {
+  margin: 1.5rem auto 0;
+  text-align: left;
+  width: 70%;
+}
+
+#text-dev p {
+  font-family: 'Glory', sans-serif;
+  font-weigth: 600;
+}
+
+#social-media {
+  /* position: absolute;
+  bottom: .6rem; */
+  left: 25%;
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+#social-media a {
+  cursor: pointer;
+}
+
+
+/* ------------  ABOUT ------------------ */
+
+#logo-about img {
+  width: 1rem;
+  background: red;
+}
+
+#main {
+  position: relative;
+}
+
+#text-dev-about {
+  margin-top: 3rem;
+}
+
+#text-dev-about h2 {
+  text-align: center;
+  font-family: 'Glory', sans-serif;
+  font-weigth: 700;
+  margin-block: 3rem;
+}
+
+#text-dev-about p {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Glory', sans-serif;
+}
+
+.social-media-about {
+  position: absolute;
+  bottom: .6rem;
+  left: 25%;
+}
+
+/* -------  Modal Active ----------- */
+
+#menu.active {
+  border-top: 1px solid black;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 50px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+#menu.active li {
+  font-family: 'Glory', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#menu.active #btn-contact {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  font-size: 1.2rem;
+  font-family: 'Glory', sans-serif;
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+#menu.active #btn-contact a {
+  color: white;
+  text-decoration: none;
+}
+
